@@ -1,0 +1,85 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@400..800&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&family=Varela+Round&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    font-family: "Roboto Mono", monospace;
+}
+nav ul{
+    display: flex;
+    background-color: #181818;
+    color: white;
+    height:80px;
+    list-style-type: none;
+    align-items: center;
+}
+nav ul li{
+    padding: 0 10px;
+
+}
+nav ul i{
+    margin-left: 30px;
+
+}
+
+
+
+.gameContainer{
+    background-color: palegoldenrod;
+    display: flex;
+    justify-content: center;
+    /* margin-top: 10px; */
+    height:600px ;
+
+}
+
+.container{
+    margin-top: 10px;
+    display: grid;
+    font-family: "Roboto Mono", monospace;
+    grid-template-columns: repeat(3,10vw);
+    grid-template-rows: repeat(3,10vw);
+
+}
+.box{
+    border: 2px solid black;
+    font-size: 8vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor:pointer
+}
+.box:hover{
+    background-color:rgb(229, 222, 145);
+}
+.gameInfo{
+    font-family: "Baloo 2", sans-serif;
+}
+.br-0{
+    border-right: 0;
+}
+.bl-0{
+    border-left: 0;
+}
+.bb-0{
+    border-bottom: 0;
+}
+.bt-0{
+    border-top: 0;
+}
+.imgbox{
+    display: none;
+}
+#reset{
+    width: 80px;
+    height: 40px;
+    border-radius: 20px;
+    background-color:rgb(145, 2, 248)  ;
+    cursor: pointer;
+}
+#reset:hover{
+    background-color: rgb(176, 94, 235);
+}
